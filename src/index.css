@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.film-box {
+  background-color: #C5D5E4;
+  margin: 5px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.film-box h4 {
+  background-color: #8896AB;
+  padding: 10px;
+  border: 1px solid black;
+}
