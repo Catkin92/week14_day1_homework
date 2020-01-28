@@ -39,8 +39,10 @@ class FilmBox extends Component {
         return(
             <div className="film-box">
                 <h2>Upcoming Film Releases for UK</h2>
+                {/* Change the title into a header component that displays a prop passed down, to make it more reusable */}
                 <FilmList data={this.state.data}></FilmList>
                 <h4><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases >></a></h4>
+                {/* For re-usability turn the view more releases into its own component */}
             </div>
         )
     }
